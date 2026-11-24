@@ -4,6 +4,13 @@ public class Figura {
 	//ATRIBUTOS
 	private String nombre;
 	private String color;
+	
+	//CONSTRUCTOR
+	public Figura(String nombre,String color) {
+		this.nombre=nombre;
+		this.color=color;
+	}
+	
 	//GETTERS-SETTERS
 	public String getNombre() {
 		return nombre;
