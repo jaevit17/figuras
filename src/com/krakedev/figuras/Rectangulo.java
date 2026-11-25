@@ -13,7 +13,7 @@ public class Rectangulo extends Figura{
 		this.altura=altura;
 	}
 	///METODO
-	public int calcularPerimetro() {
+	public double calcularPerimetro() {
 		return 2*base+2*altura;
 	}
 	public double calcularArea() {

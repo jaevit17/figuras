@@ -35,7 +35,7 @@ public class Figura {
 	}
 	
 	//METODOS
-	public int calcularPerimetro() {
+	public double calcularPerimetro() {
 		return 0;
 	}
 	public double calcularArea() {

@@ -9,7 +9,7 @@ public class Cuadrado extends Figura{
 		this.lado=lado;
 	}
 	//METODO
-	public int calcularPerimetro() {
+	public double calcularPerimetro() {
 		return 4*lado;
 	}
 	public double calcularArea() {
