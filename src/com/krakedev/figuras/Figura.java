@@ -6,6 +6,9 @@ public class Figura {
 	private String color;
 	
 	//CONSTRUCTOR
+	public Figura() {
+		
+	}
 	public Figura(String nombre,String color) {
 		this.nombre=nombre;
 		this.color=color;
