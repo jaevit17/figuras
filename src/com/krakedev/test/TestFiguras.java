@@ -4,7 +4,6 @@ import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Rectangulo;
-import com.krakedev.figuras.Triangulo;
 
 public class TestFiguras {
 
