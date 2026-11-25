@@ -27,9 +27,15 @@ public class Figura {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	
 	//to String
 	@Override
 	public String toString() {
 		return "Nombre: "+nombre+" Color: "+color;
+	}
+	
+	//METODOS
+	public int calcularPerimetro() {
+		return 0;
 	}
 }

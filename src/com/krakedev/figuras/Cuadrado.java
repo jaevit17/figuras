@@ -4,11 +4,8 @@ public class Cuadrado extends Figura{
 	//ATRIBUTOS
 	private int lado;
 	//CONSTRUCTOR----FIGURA
-	public Cuadrado(String nombre,String color) {
+	public Cuadrado(String nombre,String color,int lado) {
 		super(nombre,color);
-	}
-	//CONSTRUCTOR
-	public Cuadrado(int lado) {
 		this.lado=lado;
 	}
 	//METODO

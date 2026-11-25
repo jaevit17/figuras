@@ -7,11 +7,8 @@ public class Rectangulo extends Figura{
 	
 	
 	//CONSTRUCTOR----FIGURA
-	public Rectangulo(String nombre,String color) {
+	public Rectangulo(String nombre,String color,int base,int altura) {
 		super(nombre,color);
-	}
-	//CONSTRUCTOR
-	public Rectangulo(int base,int altura) {
 		this.base=base;
 		this.altura=altura;
 	}
